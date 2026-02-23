@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Flutter
+ai_shop_app/build/
+ai_shop_app/.dart_tool/
+ai_shop_app/.packages
+ai_shop_app/pubspec.lock
+
+# Large folders - Don't deploy
+RAG_Document_Store/
+data/
+storage/
+temp/
+archive*/
+
+# Files
+*.log
+*.db
+*.sqlite3
+uvicorn_*.txt
